@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="icon" href="{% static 'images/favicon.ico' %}" type="image/x-icon" size="16*16">
+    <script src="{% static 'js/main.js' %}"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Path: templates/index.html -->
+    <center>
+        <h1 class="my-header">My First Project in Django</h1>
+        <h2 class="my-subheader">App1:Function based Approach</h2>
+        <img src="{% static 'images/1.jpg' %}" alt="Image" width="300px" height="300px" class="my-image">
+    </center>
+</body>
+
+</html>

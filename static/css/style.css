@@ -1,0 +1,18 @@
+.my-header {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 2em;
+    color: #333;
+}
+
+.my-subheader {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 1.5em;
+    color: #666;
+}
+
+.my-image {
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
